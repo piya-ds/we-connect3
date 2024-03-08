@@ -1,5 +1,8 @@
 # We-Connect by Django UnHinged
 
+![Logo](static/images/logo.png)
+
+
 - __Responsive Design__
 
  Website is fully responsive to small screen such as Galaxy Fold and Phone, Ipad Tablet, larger screen such as Laptop, Desktop.
