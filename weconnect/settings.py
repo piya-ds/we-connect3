@@ -28,7 +28,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-piyads-weconnect3-bslslmdhz04.ws-eu108.gitpod.io','.herokuapp.com']
 
@@ -63,7 +63,7 @@ ROOT_URLCONF = 'weconnect.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_DIR],
+        'DIRS': [TEMPLATES_DIR],    
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
